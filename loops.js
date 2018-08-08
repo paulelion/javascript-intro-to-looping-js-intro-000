@@ -9,9 +9,24 @@ function forLoop(array){
   return array;
 }
 
+
 function whileLoop(number){
   while (number > 0) {
     console.log(number--);
   }
   return "done";
 }
+
+
+function doWhileLoop(array){
+  function incrementVariable() {
+    i = i + 1;
+  }
+}
+do {
+  array.pop();
+} while (array.length > 0 && incrementVariable());
+return array;
+
+
+
